@@ -1,0 +1,23 @@
+﻿{
+    "options": {
+        "banner": "/*! <%= pkg.name %> <%= grunt.template.today('dd-mm-yyyy') %> */\n"
+    },
+    "release": {
+        "files": {
+            "wwwroot/app/app.min.js": [ "app/**/*.js" ]
+        },
+        "options": {
+            "compress": "true",
+            "sourceMapIncludeSources": "true"
+        }
+    },
+    "dev": {
+        "files": {
+            "wwwroot/app/app.js": [ "app/**/*.js" ]
+        },
+        "options": {
+            "beautify": "true",
+            "sourceMap":  true
+        }
+    }
+}

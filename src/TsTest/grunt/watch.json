@@ -1,0 +1,10 @@
+﻿{
+    "typescript": {
+        "files": ["app/**/*.ts", "!**/*.ng.ts"],
+        "tasks": ["tslint"]
+    },
+    "bower": {
+        "files": ["bower_components/**/*.*"],
+        "tasks": ["bower:install"]
+    }
+}

@@ -1,0 +1,4 @@
+﻿{
+    "options": { "force": true },
+    "assets": [ "wwwroot/app" ]
+}
